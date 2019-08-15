@@ -54,14 +54,46 @@
 		894D61C82302C40F001DCFA3 /* WeatherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				894D61DE2302C463001DCFA3 /* Extensions */,
+				894D61DD2302C45A001DCFA3 /* Model */,
+				894D61DC2302C450001DCFA3 /* View */,
+				894D61DB2302C41A001DCFA3 /* Controller */,
 				894D61C92302C40F001DCFA3 /* AppDelegate.swift */,
-				894D61CB2302C40F001DCFA3 /* ViewController.swift */,
 				894D61CD2302C40F001DCFA3 /* Main.storyboard */,
 				894D61D02302C40F001DCFA3 /* Assets.xcassets */,
 				894D61D22302C40F001DCFA3 /* LaunchScreen.storyboard */,
 				894D61D52302C40F001DCFA3 /* Info.plist */,
 			);
 			path = WeatherDemo;
+			sourceTree = "<group>";
+		};
+		894D61DB2302C41A001DCFA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				894D61CB2302C40F001DCFA3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		894D61DC2302C450001DCFA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		894D61DD2302C45A001DCFA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		894D61DE2302C463001DCFA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
